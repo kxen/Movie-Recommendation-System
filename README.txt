@@ -6,7 +6,7 @@ Instructions regarding the project setup, configuration and execution.
 	For the support of asynchronous Flask calculations, Celery task queue (4.2.1) has been used. The Celery client in 	  Flask communicates to the Celery worker through Redis message broker.
 
 	The following Python modules are required for the successful execution:
-		-pyspark.mllib.recommendation
+		- pyspark.mllib.recommendation
 		- shutil
 		- os
 		- logging
