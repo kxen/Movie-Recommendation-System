@@ -1,7 +1,8 @@
 Instructions regarding the project setup, configuration and execution.
 
 	The solution was built in an OS X environment (version 10.14.1 (18B75)) using Python 2.7.10.
-	The latest version of Apache Spark (version 2.3.2) has been used for the development of the Movie Recommendation 	 Engine. Python's microframework Flask (1.0.2) was used to support the RESTful API on top of the spark Engine.
+	The latest version of Apache Spark (version 2.3.2) has been used for the development of the Movie Recommendation
+	Engine. Python's microframework Flask (1.0.2) was used to support the RESTful API on top of the spark Engine.
 	For the support of asynchronous Flask calculations, Celery task queue (4.2.1) has been used. The Celery client in 	  Flask communicates to the Celery worker through Redis message broker.
 
 	The following Python modules are required for the successful execution:
